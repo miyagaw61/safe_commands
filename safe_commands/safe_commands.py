@@ -11,7 +11,6 @@ def remove(victim, grave=GRAVE_ROOT):
         return -1
     if dst.exist():
         dst = create_dst(dst, 1)
-    dst_base = dst.basename
     dirs_lst = dst.name.split('/')[:-1]
     dirs = '/'.join(dirs_lst)
     File(dirs).mkdir()
@@ -61,7 +60,7 @@ def save_dst(src, dst, grave=GRAVE_ROOT):
     src = File(src)
     dst = File(dst)
     if dst.isdir():
-        dst = File(f'{dst.name}/{src.name}')
+        dst = File(f'{dst.name}/{src.basename}')
     if dst.exist():
         remove(dst.name, grave=grave)
     return [src, dst]
