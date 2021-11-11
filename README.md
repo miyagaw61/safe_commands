@@ -6,7 +6,7 @@ safe_cmmandsならすぐ元通り！
 ## Install
 
 ```
-pip install git+https://github.com/miyagaw61/safe_commands --process-dependency-links
+pip install git+https://github.com/miyagaw61/safe_commands
 ```
 
 ## Usage
