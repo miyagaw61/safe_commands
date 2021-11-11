@@ -41,3 +41,10 @@ Usage: move [-g(--grave) <grave_directory>] [src] [dst]
 Usage: copy [-g(--grave) <grave_directory>] [src] [dst]
 ```
 
+## Recommended aliases
+
+```
+$ alias rm=remove
+$ alias mv=move
+$ alias cp=copy
+```
