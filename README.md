@@ -22,7 +22,7 @@ $ ls
 file01
 $ remove file01 # remove and backup file01
 $ ls
-$ remove -l
+$ remove -l # show backup file pathes
 /tmp/grave/path/to/file01
 $ remove -u /tmp/grave/path/to/file01 # rescure file01 to ./file01
 $ ls
