@@ -1,7 +1,7 @@
 # safe_commands - safe rm/mv/cp
 
 間違って削除しても大丈夫！  
-safe_cmmandsならすぐ元通り！  
+safe_commandsならすぐ元通り！  
 
 ## Install
 
@@ -18,9 +18,15 @@ Usage: remove [-g(--grave) <grave_directory>] [-l(--list)] [-u(--unbury) <dead_f
 ```
 
 ```
-remove file01 # KILL file01
-remove -l #/tmp/grave/path/to/file01
-remove -u /tmp/grave/path/to/file01 # RESCURED to ./file01
+$ ls
+file01
+$ remove file01 # remove and backup file01
+$ ls
+$ remove -l
+/tmp/grave/path/to/file01
+$ remove -u /tmp/grave/path/to/file01 # rescure file01 to ./file01
+$ ls
+file01
 ```
 
 - mv -> move
