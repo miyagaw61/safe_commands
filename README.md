@@ -6,7 +6,7 @@ safe_cmmandsならすぐ元通り！
 ## Install
 
 ```
-pip install git+https://github.com/miyagaw61/safe_commands
+pip install git+https://github.com/miyase256/safe_commands
 ```
 
 ## Usage
